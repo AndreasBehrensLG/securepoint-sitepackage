@@ -1,0 +1,20 @@
+{
+    "name": "securepointgmbh/securepoint-sitepackage",
+    "description": "A first Composer project to register the vendorname securepointgmbh",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "HelloWorld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andreas Behrens",
+            "email": "andreas.behrens@securepoint.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0"
+    }
+}
